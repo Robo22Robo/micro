@@ -1,0 +1,27 @@
+        h2 {
+
+            color: white;
+            background-image: url(images/mops.jpg);
+
+        }
+
+        article {
+            background-color: aqua;
+        }
+
+        article p {
+            font-style: italic;
+            font-family: "Times New Roman";
+        }
+
+        article .external {
+            background-color: red;
+        }
+
+        .border-red {
+            border: 2px solid red;
+        }
+
+        .shadow {
+            box-shadow: 5px 5px 10px #333;
+        }

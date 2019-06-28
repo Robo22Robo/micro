@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        figure {
+            border: 5px solid red;
+            position: relative;
+            width: 400px;
+            height: 190px;
+            overflow: hidden;
+        }
+        img {
+            position: absolute;
+            width: 100%;
+        }
+        figcaption {
+            position: absolute;
+            
+            margin-top: 200px;
+            background: rgba(255,255,255,0.8);
+            width:100%;
+            padding: 0px;
+            transition: all 1s;
+        }
+        figure:hover figcaption {
+            margin-top: 173px;
+            background: rgba(255,255,255,0.8);
+        }
+    </style>
+</head>
+
+<body>
+
+    <figure>
+        <img src="images/mops.jpg" alt="">
+        <figcaption>Mr. Mops Rules</figcaption>
+    </figure>
+
+</body></html>

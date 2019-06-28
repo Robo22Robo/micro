@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .s1,
+        .s2 {
+            width: 100vw;
+            height: 100vh;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            padding: 50% 0;
+
+        }
+        
+        #test {
+            font-size: 80;
+            color: white;
+                        width: 100vw;
+            height: 100vh;
+            position: fixed;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            padding: 50% 0;
+        }
+
+        .s1 {
+            background-image: url(images/danke1.jpg)
+        }
+
+        .s2 {
+            background-image: url(images/danke_leer.jpg)
+        }
+
+
+        article {
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 10px;
+        }
+
+
+        h2 {
+            text-align: center;
+            font-size: 6em;
+            color: #FF5733;
+            margin: 0;
+            border: none;
+        }
+
+        figure {
+            border: 5px solid red;
+            position: relative;
+            width: 400px;
+            height: 190px;
+            overflow: hidden;
+        }
+
+        figcaption {
+            position: absolute;
+
+            margin-top: 200px;
+            background: rgba(255, 255, 255, 0.8);
+            width: 100%;
+            padding: 0px;
+            transition: all 1s;
+        }
+
+
+        .s2:hover {
+            -webkit-filter: none;
+            filter: none;
+            transform: scale(1.01) rotate(0.5deg);
+        }
+
+        figure:hover figcaption {
+            margin-top: 173px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="s1">
+        <h2>Hello I'm Mr. Mops, haw haw haw</h2>
+    </section>
+
+    <section class="s2">
+
+
+        <figure>
+
+            <figcaption>Mr. Mops Rules</figcaption>
+        </figure>
+        
+        <p id="test">Test</p>
+        
+    </section>
+
+
+
+
+    <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, facilis illo at numquam suscipit aspernatur sunt ducimus corrupti tempore asperiores tempora officiis ipsum veritatis dolor, quisquam, necessitatibus. Pariatur, officiis atque.</p>
+    </article>
+
+
+</body></html>
